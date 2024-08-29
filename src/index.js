@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Router from "./router";
 import { BrowserRouter } from "react-router-dom";
+import Main from './views';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
-    <Router />
+  <BrowserRouter>
+    <Main />
   </BrowserRouter>
 );
 

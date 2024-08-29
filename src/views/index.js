@@ -18,7 +18,7 @@ export default function Home() {
 
     // 이번 주 회차 번호
     
-    getLottoNumber(weeksSinceFirstDraw + 1)
+    // getLottoNumber(weeksSinceFirstDraw + 1)
   }
 
   function getLottoNumber(drawNo) {
